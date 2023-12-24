@@ -4,7 +4,7 @@ public class SwitchDaysInMonthPrinter {
     public void amountOfDays(int month) {
         switch(month) {
             default :
-                System.out.println("no such month");
+                System.out.println("wrong number!");
                 break;
             case 1 :
                 System.out.println(31);
